@@ -1,8 +1,8 @@
-export interfaces PillProps{
+export interface PillProps {
     title: string
 }
 
 export interface ButtonProps {
-  title: string;
-  styles?: string; // Optional class strings for tailwind or custom CSS
+    title: string;
+    styles?: string; // Correctly defined as optional
 }
