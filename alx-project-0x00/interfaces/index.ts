@@ -4,5 +4,5 @@ export interface PillProps {
 
 export interface ButtonProps {
     title: string;
-    styles?: string; // Correctly defined as optional
+    styles: string; // Correctly defined as mandatory
 }
